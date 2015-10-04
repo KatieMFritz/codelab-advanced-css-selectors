@@ -28,3 +28,22 @@ tbody > tr > td {
   border: 1px #999 solid;
   padding: 1em;
 }
+
+/****************************************
+PROJECT REQUIREMENTS
+****************************************/
+td:empty {
+  display: none;
+}
+
+tbody > tr > td:hover {
+  font-weight: 700;
+}
+
+tbody > tr:nth-child(2n+1) {
+  background-color: #adebad;
+}
+
+tbody > tr:first-child, tbody > tr:last-child {
+  font-style: italic;
+}
